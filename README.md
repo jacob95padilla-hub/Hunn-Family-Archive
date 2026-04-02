@@ -391,7 +391,7 @@ An ongoing project to collect an audio-visual history of our family
   <header class="masthead">
     <p class="masthead-eyebrow">Family Archive</p>
     <h1 class="masthead-title">The <em>Hunn</em> Family</h1>
-    <p class="masthead-sub">A living record &nbsp;·&nbsp; 1950s to present</p>
+    <p class="masthead-sub">A living record &nbsp;·&nbsp; 1930s to present</p>
     <div class="masthead-ornament"><span>❧</span></div>
   </header>
 
