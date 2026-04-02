@@ -1,6 +1,6 @@
 # Hunn-Family-Archive
 An ongoing project to collect an audio-visual history of our family
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
