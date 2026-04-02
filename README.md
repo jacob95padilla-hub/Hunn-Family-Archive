@@ -378,10 +378,18 @@ An ongoing project to collect an audio-visual history of our family
       .video-grid { grid-template-columns: 1fr; }
       .album-grid { grid-template-columns: repeat(2, 1fr); }
     }
+    .banner {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
   </style>
 </head>
 <body>
 <div class="page">
+  <img src="banner.jpg" alt="Hunn Family Archive" class="banner" />
 
   <!-- ═══════════════════════════════
        MASTHEAD
