@@ -427,21 +427,22 @@ An ongoing project to collect an audio-visual history of our family
     ════════════════════════════════════════════════════ -->
     <div class="video-grid" id="video-grid">
 
-      <!-- EXAMPLE VIDEO 1 — replace with your own -->
-      <div class="video-card" data-tag="Oral History">
-        <div class="thumb-wrap" data-youtube-id="Y4FzQP7gJs8">
-          <div class="thumb-overlay">
-            <div class="play-btn"></div>
-          </div>
-          <iframe allowfullscreen allow="autoplay; encrypted-media"></iframe>
-          <span class="badge badge-year">1964</span>
-          <span class="badge badge-tag">Oral History</span>
-        </div>
-        <div class="card-body">
-          <p class="card-title">How We Met</p>
-          <p class="card-meta">Video interview &nbsp;·&nbsp; 42 min</p>
-        </div>
-      </div>
+      <!-- Grandma & Grandpa — Oral History -->
+<div class="video-card" data-tag="Oral History">
+  <div class="thumb-wrap" data-youtube-id="Y4FzQP7gJs8">
+    <img src="https://img.youtube.com/vi/Y4FzQP7gJs8/hqdefault.jpg" alt="Grandma &amp; Grandpa Hunn" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" />
+    <div class="thumb-overlay">
+      <div class="play-btn"></div>
+    </div>
+    <iframe allowfullscreen allow="autoplay; encrypted-media"></iframe>
+    <span class="badge badge-year">2021</span>
+    <span class="badge badge-tag">Oral History</span>
+  </div>
+  <div class="card-body">
+    <p class="card-title">Grandma &amp; Grandpa Hunn</p>
+    <p class="card-meta">Video interview &nbsp;·&nbsp; 3 min &nbsp;·&nbsp; Recalls 1930s–40s</p>
+  </div>
+</div>
 
       <!-- EXAMPLE VIDEO 2 — replace with your own -->
       <div class="video-card" data-tag="Oral History">
