@@ -478,6 +478,23 @@ An ongoing project to collect an audio-visual history of our family
   </div>
 </div>
 
+<!-- July 4, 2022 — Home Video -->
+<div class="video-card" data-tag="Home Video">
+  <div class="thumb-wrap" data-youtube-id="pBB-gwtBe3E">
+    <img src="https://img.youtube.com/vi/pBB-gwtBe3E/hqdefault.jpg" alt="July 4, 2022" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" />
+    <div class="thumb-overlay">
+      <div class="play-btn"></div>
+    </div>
+    <iframe allowfullscreen allow="autoplay; encrypted-media"></iframe>
+    <span class="badge badge-year">2022</span>
+    <span class="badge badge-tag">Home Video</span>
+  </div>
+  <div class="card-body">
+    <p class="card-title">July 4, 2022</p>
+    <p class="card-meta">Home video &nbsp;·&nbsp; 2 min</p>
+  </div>
+</div>
+
       <!-- No results message (shown automatically by JS) -->
       <p class="no-results" id="no-results">No videos match that filter.</p>
 
