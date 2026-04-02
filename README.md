@@ -429,7 +429,7 @@ An ongoing project to collect an audio-visual history of our family
 
       <!-- EXAMPLE VIDEO 1 — replace with your own -->
       <div class="video-card" data-tag="Oral History">
-        <div class="thumb-wrap" data-youtube-id="YOUR_YOUTUBE_ID_HERE">
+        <div class="thumb-wrap" data-youtube-id="Y4FzQP7gJs8">
           <div class="thumb-overlay">
             <div class="play-btn"></div>
           </div>
@@ -438,7 +438,7 @@ An ongoing project to collect an audio-visual history of our family
           <span class="badge badge-tag">Oral History</span>
         </div>
         <div class="card-body">
-          <p class="card-title">Summer at Grandma &amp; Grandpa's</p>
+          <p class="card-title">How We Met</p>
           <p class="card-meta">Video interview &nbsp;·&nbsp; 42 min</p>
         </div>
       </div>
