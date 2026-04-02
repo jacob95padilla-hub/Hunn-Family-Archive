@@ -461,6 +461,23 @@ An ongoing project to collect an audio-visual history of our family
   </div>
 </div>
 
+<!-- Grandma & Grandpa — Oral History -->
+<div class="video-card" data-tag="Oral History">
+  <div class="thumb-wrap" data-youtube-id="4n-tfQJ0_jE">
+    <img src="https://img.youtube.com/vi/4n-tfQJ0_jE/hqdefault.jpg" alt="Grandma &amp; Grandpa's First Apartment" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" />
+    <div class="thumb-overlay">
+      <div class="play-btn"></div>
+    </div>
+    <iframe allowfullscreen allow="autoplay; encrypted-media"></iframe>
+    <span class="badge badge-year">2021</span>
+    <span class="badge badge-tag">Oral History</span>
+  </div>
+  <div class="card-body">
+    <p class="card-title">Grandma &amp; Grandpa&#8217;s First Apartment</p>
+    <p class="card-meta">Video interview &nbsp;·&nbsp; 2 min &nbsp;·&nbsp; Recalls 1950s</p>
+  </div>
+</div>
+
       <!-- No results message (shown automatically by JS) -->
       <p class="no-results" id="no-results">No videos match that filter.</p>
 
