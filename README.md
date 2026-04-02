@@ -461,38 +461,6 @@ An ongoing project to collect an audio-visual history of our family
   </div>
 </div>
 
-      <!-- EXAMPLE VIDEO 3 — replace with your own -->
-      <div class="video-card" data-tag="Home Video">
-        <div class="thumb-wrap" data-youtube-id="YOUR_YOUTUBE_ID_HERE">
-          <div class="thumb-overlay">
-            <div class="play-btn"></div>
-          </div>
-          <iframe allowfullscreen allow="autoplay; encrypted-media"></iframe>
-          <span class="badge badge-year">1993</span>
-          <span class="badge badge-tag">Home Video</span>
-        </div>
-        <div class="card-body">
-          <p class="card-title">Hunn Family Reunion</p>
-          <p class="card-meta">VHS transfer &nbsp;·&nbsp; 28 min</p>
-        </div>
-      </div>
-
-      <!-- EXAMPLE VIDEO 4 — replace with your own -->
-      <div class="video-card" data-tag="Home Video">
-        <div class="thumb-wrap" data-youtube-id="YOUR_YOUTUBE_ID_HERE">
-          <div class="thumb-overlay">
-            <div class="play-btn"></div>
-          </div>
-          <iframe allowfullscreen allow="autoplay; encrypted-media"></iframe>
-          <span class="badge badge-year">2007</span>
-          <span class="badge badge-tag">Home Video</span>
-        </div>
-        <div class="card-body">
-          <p class="card-title">Christmas Morning</p>
-          <p class="card-meta">Digital &nbsp;·&nbsp; 8 min 55 sec</p>
-        </div>
-      </div>
-
       <!-- No results message (shown automatically by JS) -->
       <p class="no-results" id="no-results">No videos match that filter.</p>
 
@@ -532,57 +500,6 @@ An ongoing project to collect an audio-visual history of our family
         </div>
         <div class="album-body">
           <p class="album-title">The Early Years</p>
-          <p class="album-count">— photos</p>
-        </div>
-      </a>
-
-      <!-- EXAMPLE ALBUM 2 -->
-      <a class="album-card" href="YOUR_GOOGLE_PHOTOS_LINK_HERE" target="_blank" rel="noopener">
-        <div class="album-thumb">
-          <div class="album-thumb-inner">
-            <div class="album-thumb-cell"></div>
-            <div class="album-thumb-cell"></div>
-            <div class="album-thumb-cell"></div>
-            <div class="album-thumb-cell"></div>
-          </div>
-          <span class="album-decade">1960s</span>
-        </div>
-        <div class="album-body">
-          <p class="album-title">Growing Up Hunn</p>
-          <p class="album-count">— photos</p>
-        </div>
-      </a>
-
-      <!-- EXAMPLE ALBUM 3 -->
-      <a class="album-card" href="YOUR_GOOGLE_PHOTOS_LINK_HERE" target="_blank" rel="noopener">
-        <div class="album-thumb">
-          <div class="album-thumb-inner">
-            <div class="album-thumb-cell"></div>
-            <div class="album-thumb-cell"></div>
-            <div class="album-thumb-cell"></div>
-            <div class="album-thumb-cell"></div>
-          </div>
-          <span class="album-decade">1970s</span>
-        </div>
-        <div class="album-body">
-          <p class="album-title">The Seventies</p>
-          <p class="album-count">— photos</p>
-        </div>
-      </a>
-
-      <!-- EXAMPLE ALBUM 4 -->
-      <a class="album-card" href="YOUR_GOOGLE_PHOTOS_LINK_HERE" target="_blank" rel="noopener">
-        <div class="album-thumb">
-          <div class="album-thumb-inner">
-            <div class="album-thumb-cell"></div>
-            <div class="album-thumb-cell"></div>
-            <div class="album-thumb-cell"></div>
-            <div class="album-thumb-cell"></div>
-          </div>
-          <span class="album-decade">1980s</span>
-        </div>
-        <div class="album-body">
-          <p class="album-title">The Eighties</p>
           <p class="album-count">— photos</p>
         </div>
       </a>
