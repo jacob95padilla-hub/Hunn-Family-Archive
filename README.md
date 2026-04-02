@@ -439,7 +439,7 @@ An ongoing project to collect an audio-visual history of our family
     <span class="badge badge-tag">Oral History</span>
   </div>
   <div class="card-body">
-    <p class="card-title">How Grandma &amp Grandpa Met</p>
+    <p class="card-title">How Grandma & Grandpa Met</p>
     <p class="card-meta">Video interview &nbsp;·&nbsp; 3 min &nbsp;·&nbsp; Recalls 1930s–40s</p>
   </div>
 </div>
