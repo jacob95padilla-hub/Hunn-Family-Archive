@@ -385,6 +385,76 @@ An ongoing project to collect an audio-visual history of our family
   object-position: center;
   display: block;
 }
+/* ── Featured memorial card ── */
+.featured-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-strong);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+}
+.featured-thumb {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #CEC3B5;
+  overflow: hidden;
+  cursor: pointer;
+}
+.featured-thumb img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.featured-thumb iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: none;
+}
+.featured-thumb.playing iframe { display: block; }
+.featured-thumb.playing .thumb-overlay { display: none; }
+.featured-thumb .play-btn {
+  width: 72px;
+  height: 72px;
+}
+.featured-thumb .play-btn::after {
+  border-left: 24px solid #FAF7F2;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  margin-left: 7px;
+}
+.featured-body {
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.featured-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 4px;
+}
+.featured-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+.featured-meta {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-weight: 300;
+  margin-top: 3px;
+}
   </style>
 </head>
 <body>
@@ -407,6 +477,26 @@ An ongoing project to collect an audio-visual history of our family
   <!-- ═══════════════════════════════
        VIDEO SECTION
   ═══════════════════════════════ -->
+<!-- ── Peggy Hunn Memorial Service — Featured ── -->
+<section id="memorial">
+  <div class="featured-card">
+    <div class="featured-thumb" data-youtube-id="6QdXcgLEc9Q">
+      <img src="https://img.youtube.com/vi/6QdXcgLEc9Q/hqdefault.jpg" alt="Peggy Hunn's Memorial Service" />
+      <div class="thumb-overlay">
+        <div class="play-btn"></div>
+      </div>
+      <iframe allowfullscreen allow="autoplay; encrypted-media"></iframe>
+      <span class="badge badge-year">2026</span>
+    </div>
+    <div class="featured-body">
+      <div>
+        <p class="featured-label">In Memoriam</p>
+        <p class="featured-title">Peggy Hunn&#8217;s Memorial Service</p>
+        <p class="featured-meta">1 hr &nbsp;·&nbsp; 2026</p>
+      </div>
+    </div>
+  </div>
+</section> 
   <section id="videos">
     <p class="section-label">Home Movies &amp; Video</p>
 
@@ -622,6 +712,13 @@ An ongoing project to collect an audio-visual history of our family
     });
     document.getElementById('no-results').style.display = visible === 0 ? 'block' : 'none';
   });
+// ── Featured memorial card play ──
+document.querySelector('.featured-thumb').addEventListener('click', () => {
+  const id = '6QdXcgLEc9Q';
+  const iframe = document.querySelector('.featured-thumb iframe');
+  iframe.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1&rel=0';
+  document.querySelector('.featured-thumb').classList.add('playing');
+});
 </script>
 
 </body>
